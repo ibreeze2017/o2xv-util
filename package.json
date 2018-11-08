@@ -1,0 +1,46 @@
+{
+  "name": "o2xv-util",
+  "version": "1.0.0",
+  "description": "React utils of o2xv~",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ibreeze2017/o2xv-util.git"
+  },
+  "keywords": [
+    "React",
+    "o2xv",
+    "util",
+    "MSPT"
+  ],
+  "author": "iwx2017",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ibreeze2017/o2xv-util/issues"
+  },
+  "homepage": "https://github.com/ibreeze2017/o2xv-util#readme",
+  "files": [
+    "lib"
+  ],
+  "dependencies": {
+    "prop-types": "^15.6.0",
+    "react": "^16.6.1",
+    "react-dom": "^16.6.1",
+    "react-router-dom": "^4.3.1"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-react": "^6.24.1",
+    "css-loader": "^0.28.11",
+    "less-loader": "^4.1.0",
+    "style-loader": "^0.19.1",
+    "webpack": "^3.10.0",
+    "webpack-node-externals": "^1.6.0"
+  }
+}

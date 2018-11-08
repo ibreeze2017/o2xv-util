@@ -1,0 +1,39 @@
+@import "../index";
+
+.card {
+  width: 140px;
+  padding: 5px 10px;
+  position: absolute;
+  right: 20px;
+  z-index: 20;
+  border: 1px solid #fff;
+  background: #fff;
+  .wx-mix-radius(2px);
+  .wx-mix-shadow();
+  .menu {
+    line-height: normal;
+    color: #333;
+    .title {
+      padding: 6px 0;
+      border-bottom: 1px solid #b4b4b4;
+      .level {
+        padding: 2px 4px;
+        cursor: default;
+        color: #fff;
+        font-size: 12px;
+        background-color: #ea4a2f;
+      }
+    }
+    .body {
+      padding: 2px 0;
+      .item {
+        padding: 6px 6px;
+        cursor: default;
+        &:hover {
+          background-color: #eaeaea;
+        }
+      }
+    }
+  }
+}
+
